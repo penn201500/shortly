@@ -22,6 +22,9 @@
         <link
             rel="stylesheet"
             href="css/style.css" />
+        <script
+            src="js/script.js"
+            defer></script>
 
         <title>Shortly</title>
     </head>
@@ -136,6 +139,15 @@
                         class="px-10 py-3 text-white bg-cyan rounded-lg hover:bg-cyanLight focus:outline-none md:py-2">
                         Shorten It!
                     </button>
+
+                    <!-- error messages -->
+                    <div
+                        id="err-msg"
+                        class="absolute left-7 bottom-3 text-red text-sm italic"></div>
+                    <!-- success messages -->
+                    <div
+                        id="success-msg"
+                        class="absolute left-7 bottom-3 text-green-500 text-sm italic"></div>
                 </form>
 
                 <!-- links -->
