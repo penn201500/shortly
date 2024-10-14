@@ -46,7 +46,7 @@ To run this project locally, ensure you have the following installed:
 
 ## Live Demo
 
-You can view a live demo of this project [here](https://vercel.com).
+You can view a live demo of this project [here](https://shortly-xi-gold.vercel.app/).
 
 ## Contributing
 
