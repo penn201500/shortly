@@ -1,9 +1,19 @@
+const btn = document.getElementById("menu-btn")
+const menu = document.getElementById("menu")
+
 const input = document.getElementById("link-input")
 const linkForm = document.getElementById("link-form")
 const errMsg = document.getElementById("err-msg")
 const successMsg = document.getElementById("success-msg")
 
+btn.addEventListener("click", navToggle)
 linkForm.addEventListener("submit", formSubmit)
+
+function navToggle() {
+    btn.classList.toggle("open-hamburger")
+    menu.classList.toggle("flex")
+    menu.classList.toggle("hidden")
+}
 
 function validURL(str) {
     let pattern = new RegExp(
